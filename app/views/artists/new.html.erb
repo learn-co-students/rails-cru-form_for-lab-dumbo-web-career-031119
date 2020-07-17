@@ -1,0 +1,7 @@
+<%= form_for Artist.new do |f|%>
+<%= label_tag 'artist[name]','Artist name'%>
+<%= text_field_tag 'artist[name]'%>
+<%= label_tag 'artist[bio]','Artist bio'%>
+<%= text_area_tag 'artist[bio]'%>
+<%= submit_tag 'Create Artist'%>
+<%end%>
